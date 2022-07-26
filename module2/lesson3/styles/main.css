@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table{
+    width: 600px;
+    margin: 40px auto;
+    text-align: center;
+}
+thead{
+    background: azure;
+    border-collapse: separate;
+}

@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background: crimson;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background: crimson;
+    animation-name: boxAnimate;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-fill-mode: both;
+    animation-iteration-count: 5;
+   
+}
+.card{
+    width: 200px;
+    height: 200px;
+    background: #000;
+}
+
+@keyframes boxAnimate{
+    from{
+        width: 200px;
+        height: 200px;
+        background: crimson;
+
+    }
+to{
+    width: 100%;
+    height: 200vh;
+    background: green;
+
+}
+
+
+
+
+
+
+}
